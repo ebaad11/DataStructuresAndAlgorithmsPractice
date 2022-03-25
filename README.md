@@ -1,5 +1,5 @@
 sliding-window
-lengthOfLongestSubstring visualization
+  lengthOfLongestSubstring visualization
 
 
 use PythonTutor to visualize this problem
