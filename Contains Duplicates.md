@@ -192,4 +192,4 @@ def containsDuplicate(self, nums: List[int]) -> bool:
 
 None
 
-### Leetcode Solution
+### [Leetcode Solution](https://leetcode.com/problems/contains-duplicate/discuss/2210508/beginner-friendly-4-python-solutions-and-trade-offs-discussed-interactive-visualizations-0-enjoy)
