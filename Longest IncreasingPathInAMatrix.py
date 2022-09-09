@@ -37,13 +37,15 @@ class DFS:
         
         def dfs(r,c,prev): 
             
-            if memo[r][c] != 0:
-                return memo[r][c]
             
             
             if min(r,c) < 0 or r == ROWS or c == COLS or prev <= matrix[r][c]: 
                 # checking elements in the path not needed as all the elements in the previous path are going to be bigger numbers
                 return 0
+            
+            if memo[r][c] != 0:
+                return memo[r][c]
+            
             
             
                 
