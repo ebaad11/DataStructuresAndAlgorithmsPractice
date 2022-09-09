@@ -30,7 +30,7 @@ class Solution:
         
         return distinctSubsequences(0,0)
 
-class DP:
+class Memo:
     def numDistinct(self, s: str, t: str) -> int:
         
         
@@ -71,7 +71,7 @@ class DP:
         return distinctSubsequences(0,0)
       
       
-class Solution:
+class DP:
     def numDistinct(self, s: str, t: str) -> int:
         
         
