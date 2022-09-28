@@ -16,10 +16,8 @@ class Solution:
             q.append(index)
             
             startingIndexQ = q[0]
-            
-            
             # the elements in the q don't go over the elements in the window
-            if startingIndexQ-index == k: 
+            if index-startingIndexQ == k: 
                 #[7,6,5] 4(to add) get rid of 7 as it is out of bounds
                 q.popleft()
                 
@@ -30,7 +28,6 @@ class Solution:
                 
         
         return result
-    
       
       
       
